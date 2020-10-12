@@ -11,6 +11,7 @@ import Grid from '@material-ui/core/Grid';
 
 
 
+
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
@@ -35,11 +36,16 @@ export default function Footer() {
                         <Grid item>
 <img src={logo} alt={"joonko logo"}/>
                         </Grid>
-                        <Grid item >
+                        <Grid item>
+                        <Grid   container justify="space-between"  style={{margin:"5px"}}>
+                            <Grid item>
                     <img src={facebooklogo} alt={"facebook logo"}/>
+                            </Grid>
+                            <Grid item>
                     <img src={linkdinlogo} alt={"linkdin logo"}/>
+                            </Grid>
                         </Grid>
-
+                        </Grid>
                     </Grid>
                 </Toolbar>
             </AppBar>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92.762" height="92.763" viewBox="0 0 92.762 92.763">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #7b3ff2;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2.8px;
+      }
+    </style>
+  </defs>
+  <g id="Group_5949" data-name="Group 5949" transform="matrix(0.883, -0.469, 0.469, 0.883, 0.074, 32.224)">
+    <line id="Line_79" data-name="Line 79" class="cls-1" x2="68.479" y2="57.435" transform="translate(0 5.523)"/>
+    <line id="Line_80" data-name="Line 80" class="cls-1" y1="68.48" x2="57.434" transform="translate(5.522 0)"/>
+  </g>
+</svg>

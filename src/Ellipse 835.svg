@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="74.038" height="74.038" viewBox="0 0 74.038 74.038">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #ffac29;
+        stroke-miterlimit: 10;
+        stroke-width: 2.8px;
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Ellipse_835" data-name="Ellipse 835" class="cls-1">
+    <ellipse class="cls-2" cx="37.019" cy="37.019" rx="37.019" ry="37.019"/>
+    <ellipse class="cls-3" cx="37.019" cy="37.019" rx="35.619" ry="35.619"/>
+  </g>
+</svg>

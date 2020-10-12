@@ -6,6 +6,8 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
+import circle from '../Ellipse 835.svg'
+import square from '../Rectangle 1970.svg'
 
 export default class Body extends Component {
     constructor(props) {
@@ -113,19 +115,20 @@ export default class Body extends Component {
     render() {
         return (
             <div>
-                <Grid container justify="center"
+                <Grid container direction="column" justify="space-between"
                       alignItems="center">
-                    <Card style={{maxWidth: "550px", margin: "5px"}}>
+                    <Grid item>
+                    <Card style={{maxWidth: "999px",maxHeight:"628PX", margin: "5px"}}>
                         <CardContent>
-                            <Typography variant="h4" style={{color: "#010A60"}}>Representation at PayPal</Typography>
-                            <Typography style={{color: "#010A60"}}>Display the representation across your organization,
+                            <Typography variant="h6" style={{color: "#010A60",fontFamily:"Muli"}}>Representation at PayPal</Typography>
+                            <Typography style={{color: "#010A60",textAlign:"left",fontFamily:"Muli",whiteSpace: "nowrap"}}>Display the representation across your organization,
                                 from race and gender, to pride and service.</Typography>
                             <Grid container direction="row-reverse" alignItems="center" justify="space-evenly">
                                 <Grid item>
                                     <form onBlur={(e) => this.onValidate(e)} autoComplete="off">
                                         <Grid container direction="column" justify="space-around">
                                             <Grid item>
-                                                <TextField error={this.state.error.men}
+                                                <TextField error={this.state.error.men} style={{border:"border: 0.5px solid #040464"}}
                                                            helperText={this.state.error.men && "Incorrect entry."}
                                                            id="men" label="Men %" variant="outlined"
                                                            onkeydown="event.preventDefault()"
@@ -150,20 +153,33 @@ export default class Body extends Component {
                             </Grid>
                         </CardContent>
                     </Card>
-                </Grid>
-                <Grid container direction="column" justify="space-between">
+                    </Grid>
+
+                <Grid item>
+                <Grid container  justify="space-around" alignItems="center">
                     <Grid item>
-                <Typography style={{color: "#010A60"}}>
+                <Typography style={{color: "#010A60",fontFamily:"Muli"}}>
                     Ready to accelerate your diversity recruiting efforts?
                 </Typography>
                     </Grid>
+
+                    <Grid container justify="space-between" alignItems="center" >
+                        <Grid item>
+                            <img src={circle} alt={"circle"}/>
+                        </Grid>
                     <Grid item>
-                <TextField defaultValue="Enter your work email" variant="outlined" style={{borderRadius: "20px"}}/>
+                <input defaultValue="Enter your work email" variant="outlined" style={{background:"#EFF2F8",border: "none",
+                    borderRadius: "10px",height:"38px"}}/>
                 <Button style={{background: "#FFA52E", borderRadius: "100px", color: "#FFFFFF"}}> Schedule a
                     call</Button>
                     </Grid>
+                        <Grid item>
+                            <img src={square} alt={"square"}/>
+                        </Grid>
+                    </Grid>
+                    </Grid>
                 </Grid>
-
+                </Grid>
             </div>
         );
     }
