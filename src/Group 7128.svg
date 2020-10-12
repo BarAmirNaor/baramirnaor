@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7b3ff2;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_7128" data-name="Group 7128" transform="translate(-1347 -1858)">
+    <rect id="Rectangle_1674" data-name="Rectangle 1674" class="cls-1" width="35" height="35" rx="8" transform="translate(1347 1858)"/>
+    <path id="Icon_awesome-facebook-f" data-name="Icon awesome-facebook-f" class="cls-2" d="M12.057,11.742l.58-3.778H9.012V5.513a1.889,1.889,0,0,1,2.13-2.041H12.79V.255A20.1,20.1,0,0,0,9.864,0C6.879,0,4.928,1.809,4.928,5.085V7.964H1.609v3.778H4.928v9.133H9.012V11.742Z" transform="translate(1357.391 1865)"/>
+  </g>
+</svg>
